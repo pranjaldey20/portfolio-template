@@ -1,0 +1,136 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.nav-link{
+  margin: auto 20px;
+  font-size: 22px;
+  color:black;
+}
+.navbar-brand{
+  font-size: 22px;
+  color: black;
+  font-weight: 600;
+}
+
+.navbar-nav li{
+  padding: 0 15px;
+}
+.navbar-nav li a{
+  font-weight: 600;
+  float: center;
+  text-align: center;
+}
+.fa-bars{
+float: right;
+color: black;
+font-size: 22px !important;
+}
+.navbar-toggler{
+outline: none !important;
+}
+/* Cards */
+
+.card-body {
+  background-color: white;
+  margin: 50px auto;
+  -moz-box-shadow: 0 5px 10px #999;
+  -webkit-box-shadow: 0 5px 10px #999;
+  box-shadow: 0 5px 10px #999;
+}
+
+.card-body-2 {
+  background-color: white;
+  -moz-box-shadow: 0 5px 10px #999;
+  -webkit-box-shadow: 0 5px 10px #999;
+  box-shadow: 0 5px 10px #999;
+  margin: 50px auto;
+}
+
+.card-body h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+.card-body h5 {
+  font-family: "Ubuntu", sans-serif;
+}
+.card-body li {
+  list-style: inside;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+}
+@media only screen and (max-width: 991px) {
+  .card-body {
+    box-shadow: 5px 1px 5px 1px rgb(190, 190, 190);
+  }
+
+  .card-body li {
+    list-style: inside;
+  }
+  .card-body-2 {
+    margin: 0;
+  }
+}
+
+.img-fluid-rounded-circle {
+  border-radius: 50%;
+}
+.marker {
+  display: flex;
+  float: center;
+}
+p {
+  margin-bottom: 0 !important;
+}
+.marker p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.marker img {
+  margin: 5px;
+  width: 5px;
+  font-size: 1px;
+}
+/*Nav Tabs*/
+
+.nav-tabs {
+  float: right;
+}
+@media only screen and (max-width: 991px) {
+  .nav-tabs {
+    float: left;
+  }
+}
+.nav-link {
+  color: #000 !important;
+}
+.j-para {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+}
+.list {
+  margin: 0 20px;
+}
+.j-para p{
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 10px;
+
+}
+/*Footer*/
+#footer {
+  background-color: black;
+  padding: 5px 0px;
+}
+.text-center {
+  padding-bottom: 0 ;
+  text-align: center;
+  justify-content: center;
+}
+.footer a {
+  color: black;
+}
+.footer a:hover {
+  color: black;
+  text-decoration: none;
+}

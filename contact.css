@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link{
+  margin: auto 20px;
+  font-size: 22px;
+  color:black;
+}
+
+.navbar-brand{
+  font-size: 22px;
+  color: black;
+  font-weight: 600;
+}
+
+.navbar-nav li{
+  padding: 0 15px;
+}
+
+.navbar-nav li a{
+  font-weight: 600;
+  float: center;
+  text-align: center;
+}
+
+.fa-bars{
+float: right;
+color: black;
+font-size: 22px !important;
+}
+
+.navbar-toggler{
+outline: none !important;
+}
+
+/* Cards*/
+.card-body {
+  background-color: white;
+  margin: 30px auto;
+  -moz-box-shadow: 0 5px 10px #999;
+  -webkit-box-shadow: 0 5px 10px #999;
+  box-shadow: 0 5px 10px #999;
+}
+
+.card-body h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.form-group {
+  font-family: "Ubuntu", sans-serif;
+  font-style: bold;
+  font-size: 20px;
+}
+
+input[type="text"],
+textarea {
+  outline: none;
+  box-shadow: none !important;
+  border: 1px solid #ccc !important;
+}
+
+/* Submit button*/
+
+.btn-dark {
+  color: white;
+  background-color: black !important;
+  border-color: black !important;
+}
+
+/*Footer*/
+#footer {
+  background-color: black;
+  padding: 5px 0px;
+}
+
+.text-center {
+  padding-bottom: 0 ;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer a {
+  color: black;
+}
+
+.footer a:hover {
+  color: black;
+  text-decoration: none;
+}
+
