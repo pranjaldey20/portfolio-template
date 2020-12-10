@@ -1,73 +1,80 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
-.nav-link{
+
+.navbar {
+  background-color: white;
+}
+.nav-link {
   margin: auto 20px;
   font-size: 22px;
-  color:black;
+  color: black;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-size: 22px;
   color: black;
   font-weight: 600;
 }
 
-.navbar-nav li{
+.navbar-nav li {
   padding: 0 15px;
 }
-.navbar-nav li a{
+
+.navbar-nav li a {
   font-weight: 600;
   float: center;
   text-align: center;
 }
-.fa-bars{
-float: right;
-color: black;
-font-size: 22px !important;
+
+.fa-bars {
+  float: right;
+  color: black;
+  font-size: 22px !important;
 }
-.navbar-toggler{
-outline: none !important;
+
+.navbar-toggler {
+  outline: none !important;
 }
-/*  Banner */
-.image{
-    height: 100vh;
-    width: 100%;
-    text-align: center;
+
+/* Banner Section */
+#banner::before {
+  content: "";
+  position: absolute;
+  background: url("../back.jpg") no-repeat center/cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  opacity: 1;
 }
-#banner{
-    width: 100%;
-    height: auto;
-    text-align: center;
+#banner {
+  height: auto;
+  padding-top: 5%;
 }
-.name-title{
-    color: white;
-    font-size: 48px;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    justify-content: center;
-    font-family: 'Ubuntu', sans-serif;
+
+.name-title {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 180px;
 }
-.name-ban{
-    color: white;
-    font-size: 25px;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    justify-content: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 9rem;
+.name-para {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Noto Sans JP", sans-serif;
 }
-@media only screen and (min-width : 992px){
-    .name-title{
-        font-size: 80px;
-        width: 100%;
-        height: auto;
- }
-    .name-para{
-        font-size: 40px;
-        width: 100%;
-        height: auto4;
+@media only screen and (min-width: 992px) {
+  .name-title {
+    font-size: 80px;
+  }
+  .name-para {
+    font-size: 40px;
   }
 }

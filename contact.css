@@ -1,38 +1,38 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-.nav-link{
+.nav-link {
   margin: auto 20px;
   font-size: 22px;
-  color:black;
+  color: black;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-size: 22px;
   color: black;
   font-weight: 600;
 }
 
-.navbar-nav li{
+.navbar-nav li {
   padding: 0 15px;
 }
 
-.navbar-nav li a{
+.navbar-nav li a {
   font-weight: 600;
   float: center;
   text-align: center;
 }
 
-.fa-bars{
-float: right;
-color: black;
-font-size: 22px !important;
+.fa-bars {
+  float: right;
+  color: black;
+  font-size: 22px !important;
 }
 
-.navbar-toggler{
-outline: none !important;
+.navbar-toggler {
+  outline: none !important;
 }
 
 /* Cards*/
@@ -72,12 +72,12 @@ textarea {
 
 /*Footer*/
 #footer {
-  background-color: black;
+  background-color: white;
   padding: 5px 0px;
 }
 
 .text-center {
-  padding-bottom: 0 ;
+  padding-bottom: 0;
   text-align: center;
   justify-content: center;
 }
@@ -87,7 +87,6 @@ textarea {
 }
 
 .footer a:hover {
-  color: black;
+  color: rgb(255, 234, 234);
   text-decoration: none;
 }
-

@@ -1,34 +1,40 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
-.nav-link{
+
+.nav-link {
   margin: auto 20px;
   font-size: 22px;
-  color:black;
+  color: black;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-size: 22px;
   color: black;
   font-weight: 600;
 }
 
-.navbar-nav li{
+.navbar-nav li {
   padding: 0 15px;
 }
-.navbar-nav li a{
+
+.navbar-nav li a {
   font-weight: 600;
   float: center;
   text-align: center;
 }
-.fa-bars{
-float: right;
-color: black;
-font-size: 22px !important;
+
+.fa-bars {
+  float: right;
+  color: black;
+  font-size: 22px !important;
 }
-.navbar-toggler{
-outline: none !important;
+
+.navbar-toggler {
+  outline: none !important;
 }
+
 /* Cards */
 
 .card-body {
@@ -49,16 +55,19 @@ outline: none !important;
 
 .card-body h4 {
   font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
+  font-weight: 500;
 }
+
 .card-body h5 {
   font-family: "Ubuntu", sans-serif;
 }
+
 .card-body li {
   list-style: inside;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: bold;
 }
+
 @media only screen and (max-width: 991px) {
   .card-body {
     box-shadow: 5px 1px 5px 1px rgb(190, 190, 190);
@@ -67,6 +76,7 @@ outline: none !important;
   .card-body li {
     list-style: inside;
   }
+
   .card-body-2 {
     margin: 0;
   }
@@ -75,61 +85,74 @@ outline: none !important;
 .img-fluid-rounded-circle {
   border-radius: 50%;
 }
+
 .marker {
   display: flex;
   float: center;
 }
+
 p {
   margin-bottom: 0 !important;
 }
+
 .marker p {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: bold;
   font-size: 15px;
 }
+
 .marker img {
   margin: 5px;
   width: 5px;
   font-size: 1px;
 }
+
 /*Nav Tabs*/
 
 .nav-tabs {
   float: right;
 }
+
 @media only screen and (max-width: 991px) {
   .nav-tabs {
     float: left;
   }
 }
+
 .nav-link {
   color: #000 !important;
 }
+
 .j-para {
   font-family: "Noto Sans JP", sans-serif;
-  font-weight: bold;
+  font-weight: 500;
 }
+
 .list {
   margin: 0 20px;
 }
-.j-para p{
+
+.j-para p {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 10px;
-
 }
+
 /*Footer*/
 #footer {
-  background-color: black;
+  background-color: white;
   padding: 5px 0px;
 }
+
 .text-center {
-  padding-bottom: 0 ;
+  padding-bottom: 0;
   text-align: center;
   justify-content: center;
 }
+
 .footer a {
   color: black;
 }
+
 .footer a:hover {
   color: black;
   text-decoration: none;
